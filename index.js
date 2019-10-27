@@ -3,7 +3,7 @@ const num2 = 31
 
 const multiply = num1*num2
 
-const random= Math.floor(Math.random()*10)+1
+const random= Math.floor(Math.random()*10)+1 //+1 because you round down, and random includes 0. 0*10 is still 0
 
 const mod = 40%36
 
